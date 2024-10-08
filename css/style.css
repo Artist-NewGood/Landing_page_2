@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-Backgrounds-colorBgContainer: #FFF;
+    --color-TextIcon-colorTextHeading: #262626;
+    --color-TextIcon-colorText: #171717;
+    --color-Primary-colorPrimaryBase: #8B5CF6;
+    --color-Primary-colorPrimaryTextButton: #FFF;
+    --color-Border-colorBorder: #E5E5E5;
+    --color-TextIcon-colorTextDescription: #737373;
+    --color-Shades-Black: #000;
+    --color-Shades-White: #FFF;
+    --color-Backgrounds-colorBgElevated: #FFF;
+    --color-Backgrounds-controlItemBgHover: #F5F5F5;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px 0;
+    background-color: var(--color-Backgrounds-colorBgContainer);
+
+}
+
+.d-flex {
+    display: flex;
+
+}
+
+.jtf-cnt-agn-itm {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.f-dir-column {
+    flex-direction: column;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1488px;
+    box-sizing: border-box;
+    background-color: var(--color-Backgrounds-colorBgContainer);
+
+}
+
+.header-company-logo {
+    gap: 6px;
+}
+
+.header-company-logo > span {
+    color: var(--color-TextIcon-colorTextHeading);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 22.593px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+
+}
+
+.nav-links {
+    gap: 20px;
+
+}
+ 
+
+.nav-link {
+    padding: 10px;
+    color: var(--color-TextIcon-colorText);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    text-decoration: none;
+
+}
+
+.nav-link:nth-child(5) {
+    border-radius:  8px;
+    background-color: var(--color-Primary-colorPrimaryBase);
+    padding: 14px 24px;
+    color: var(--color-Primary-colorPrimaryTextButton);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    letter-spacing: 0.32px;
+
+}
+
+.nav-link:nth-child(6) {
+    border-radius: 10px;
+    border: 1px solid var(--color-Border-colorBorder);
+    background: var(--color-Backgrounds-colorBgContainer);
+
+}
+
+main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    width: 787px;
+    margin: 139px auto;
+
+}
+
+main > h1 {
+    color: var(--color-TextIcon-colorTextHeading);
+    text-align: center;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; 
+
+}
+
+main > h3 {
+    color: var(--color-TextIcon-colorTextDescription);
+    text-align: center;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+
+}
+
+.start-nav > a {
+    border-radius: 8px;
+    background: var(--color-Primary-colorPrimaryBase);
+    padding: 18px 32px;
+    text-decoration: none;
+    color: var(--color-Primary-colorPrimaryTextButton);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.32px;
+
+}
+
+.start-link {
+    gap: 8px;
+    padding: 18px 32px;
+
+}
+
+.start-link > a {
+    color: var(--color-Primary-colorPrimaryBase);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; 
+    letter-spacing: 0.32px;
+    text-decoration: none;
+    
+}
+
+.our-features {
+    gap: 15px;
+    padding: 130px 0;
+    
+
+}
+
+.our-features-one, 
+.our-features-two, 
+.our-features-three {
+    border-radius: 10px;
+    background: var(--color-Shades-Black);
+    height: 200px;
+    width: 486px;
+    padding: 48px 32px;
+    box-sizing: border-box;
+    gap: 10px;
+    
+
+}
+
+.featute-icon {
+    padding: 10px;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.our-features-one-text,
+.our-features-two-text,
+.our-features-three-text {
+    gap: 10px;
+
+}
+
+.our-features-one-text > span:first-child,
+.our-features-two-text > span:first-child,
+.our-features-three-text > span:first-child {
+    color: var(--color-Shades-White);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; 
+    
+}
+
+.our-features-one-text > span:last-child,
+.our-features-two-text > span:last-child,
+.our-features-three-text > span:last-child  {
+    color: var(--color-Shades-White);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    
+}
+
+.popular-courses {
+    gap: 40px;
+    padding: 128px 0;
+    
+
+}
+
+.popular-courses > h3  {
+    color: var(--color-TextIcon-colorText);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; 
+
+}
+
+.courses-cards {
+    gap: 24px;
+    width: 100%;
+    overflow: scroll;
+    scrollbar-width: thin;
+    margin-left: 0;
+    margin-right: auto;
+
+}
+
+.course-card {
+    gap: 24px;
+    border-radius: 16px;
+    border: 1px solid var(--color-Border-colorBorder);
+    background: var(--color-Backgrounds-colorBgElevated, #FFF);
+    padding: 16px;
+
+}
+
+.course-card-name-author {
+    gap: 8px;
+
+}
+
+.course-card-name-author > span:first-child {
+    color: var(--color-TextIcon-colorText);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; 
+    width: 322px;
+    
+}
+
+.course-card-name-author > span:last-child {
+    color: var(--color-TextIcon-colorTextDescription);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; 
+    letter-spacing: 0.28px;
+    
+}
+
+.course-card > {
+    gap: 24px;
+
+}
+
+.course-information {
+    gap: 20px;
+
+}
+
+.course-duration {
+    gap: 5px;
+
+}
+
+.course-duration > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-TextIcon-colorText);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    letter-spacing: 0.28px;
+    gap: 2px;
+    
+}
+
+.course-prices {
+    gap: 8px;
+
+}
+
+.course-price {
+    gap: 5px;
+
+}
+
+.course-price > span {
+    color: var(--color-TextIcon-colorTextDescription);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; 
+    letter-spacing: 0.28px;
+
+}
+
+.course-prices > a {
+    border-radius: 8px;
+    background: var(--color-Primary-colorPrimaryBase);
+    display: flex;
+    padding: 14px 24px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-Primary-colorPrimaryTextButton);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    letter-spacing: 0.32px;
+}
+
+.quote {
+    gap: 32px;
+    padding: 165px 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(101deg, rgba(2,0,36,1) 0%, rgba(121,9,107,1) 64%, rgba(0,212,255,1) 100%);
+
+}
+
+.quote > h3,
+.quote > h4 {
+    color: var(--color-Shades-White);
+    text-align: center;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; 
+    width: 1094px;
+    
+}
+
+.quote > h4 {
+    font-size: 38px;
+    
+}
+
+.proposals {
+    padding: 160px 0;
+    gap: 150px;
+    background: var(--color-Backgrounds-controlItemBgHover, #F5F5F5);
+
+}
+
+.illustration-proposals {
+    gap: 192px;
+
+}
+
+.proposal-text {
+    gap: 20px;
+
+}
+
+.proposal-text > span:first-child {
+    color: var(--color-TextIcon-colorText);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+        
+}
+
+.proposal-text > span:last-child {
+    color: var(--color-TextIcon-colorTextDescription);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; 
+    width: 671px;
+            
+}
+
+footer {
+    padding: 100px 0;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 323px;
+    background: var(--color-Backgrounds-colorBgContainer);
+
+}
+
+.logo-socials-elements {
+    gap: 40px;
+    flex-direction: column;
+
+}
+
+.footer-company-logo {
+    gap: 8px;
+    
+    
+}
+
+.footer-company-logo > span {
+    color: var(--color-TextIcon-colorTextHeading);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 32.222px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+    
+}
+
+
+.social-elements {
+    gap: 12px;
+    
+}
+
+.social-elements > a {
+    display: flex;
+    box-sizing: border-box;
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px solid var(--color-Border-colorBorder);
+    
+}
+.footer-links {
+    gap: 120px;
+
+}
+
+.footer-products-links,
+.footer-resources-links,
+.footer-company-links {
+    flex-direction: column;
+    gap: 50px;
+    /* width: 160px; */
+
+
+}
+
+.footer-products-links > h4,
+.footer-resources-links > h4,
+.footer-company-links > h4 {
+    color: var(--color-TextIcon-colorText);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+
+} 
+
+.footer-product-link,
+.footer-resources-link,
+.footer-company-link {
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.footer-product-link > span,
+.footer-resources-link > span,
+.footer-company-link > span {
+    color: var(--color-TextIcon-colorText);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; 
+        
+}
+
+.main-image {
+    background-image: url(/img/main.png);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    flex-shrink: 0;
+
+}
